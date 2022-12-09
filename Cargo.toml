@@ -5,4 +5,9 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[lib]
+name = "helpers"
+path = "src/helpers.rs"
+
 [dependencies]
+itertools = "0.10.5"
